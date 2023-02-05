@@ -51,7 +51,7 @@ function App() {
     console.log(show);
     axios({
       method: 'put',
-      url: `http://localhost:7777/employee/${show}`,
+      url: `http://localhost:7777/product/${show}`,
       data: {
         name: nameEdit,
         description: descriptionEdit,
